@@ -1,15 +1,5 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-const users = [
-  { name: "nashe", color: "azul" },
-  { name: "mario", color: "verde" },
-  { name: "urbo", color: "rojo" },
-  { name: "orale", color: "morado" },
-  { name: "deply", color: "cafe" },
-
-];
-
-
 
 export function CreateUser(){
 const [persona, setPersona] = useState([{name: "Alex"},{name: "Roberto"}, {name: "Teresa"}, {name: "Dany"}])
